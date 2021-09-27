@@ -11,13 +11,7 @@ body {
 }
 
 #welcome {
-    position: absolute;
-    height: 800px;
     color: antiquewhite;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     opacity: 0.8;
     background: linear-gradient(#06EBEB 0%, #278E60 100%);
     display: table;
@@ -50,6 +44,10 @@ h2 {
     text-align: center;
 }
 
+#bio p {
+    text-align: center;
+}
+
 .line {
     height: 6px;
     background-color: black;
@@ -58,8 +56,6 @@ h2 {
 }
 
 p {
-    max-width: 450px;
-    margin: 25px auto;
     font-size: 17px;
     line-height: 1.3;
 }
